@@ -30,7 +30,7 @@ while answer.casefold() == "y":
             result = float(Eqn_4[0])-float(Eqn_4[1])
         # For preventing crashes
         elif len(Eqn_0) > 2 or len(Eqn_1) > 2 or len(Eqn_2) > 2 or len(Eqn_3) > 2 or len(Eqn_4) > 2:
-            result = "This program is not yes supported with inputs over 2 terms long"
+            result = "This program is not yet supported with inputs over 2 terms long"
         # For things that can not be calculated
         else:
             # For Single term inputs
